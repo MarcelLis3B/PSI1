@@ -3,8 +3,7 @@ let b = document.getElementById('second').value;
 
 
 function modifyDOM() {
-    document.getElementById('res').innerHTML = a + b;
-    console.log(res);
+    document.getElementById('res').innerHTML = parseInt(a) + parseInt(b);
 }
 
 document.addEventListener('submit', modifyDOM(), false);
