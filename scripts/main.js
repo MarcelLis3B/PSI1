@@ -1,5 +1,5 @@
-let a = document.getElementById('first');
-let b = document.getElementById('second');
+let a = document.getElementById('first').value;
+let b = document.getElementById('second').value;
 let res = a + b;
 
 function modifyDOM() {
