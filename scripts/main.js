@@ -1,6 +1,6 @@
 const a = document.getElementById('first');
 const b = document.getElementById('second');
-const p = document.getElementById('p');
+const p = document.getElementById('res');
 const button = document.getElementById('button');
 
 function modifyDOM() {
