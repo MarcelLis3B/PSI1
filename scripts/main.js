@@ -4,7 +4,7 @@ let res = a + b;
 
 function modifyDOM() {
     let resElement = document.getElementById('res');
-    resElement.nodeValue(res);
+    console.log(res);
 }
 
 document.addEventListener('submit', modifyDOM(), false);
