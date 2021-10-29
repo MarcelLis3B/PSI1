@@ -1,9 +1,9 @@
 let a = document.getElementById('first').value;
 let b = document.getElementById('second').value;
-let res = a + b;
+
 
 function modifyDOM() {
-    let resElement = document.getElementById('res');
+    document.getElementById('res').innerHTML = a + b;
     console.log(res);
 }
 
