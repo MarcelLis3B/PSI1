@@ -1,9 +1,11 @@
-let a = document.getElementById('first').value;
-let b = document.getElementById('second').value;
-
+const a = document.getElementById('first');
+const b = document.getElementById('second');
+const p = document.getElementById('p');
+const button = document.getElementById('button');
 
 function modifyDOM() {
-    document.getElementById('res').innerHTML = parseInt(a) + parseInt(b);
+    const result = parseInt(a.value) + parseInt(b.value);
+    p.innerHTML = `Wynik to: ${result}`;
 }
 
-document.addEventListener('submit', modifyDOM(), false);
+button.addEventListener('click', modifyDOM);
